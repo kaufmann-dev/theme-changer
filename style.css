@@ -1,0 +1,43 @@
+* {
+	font-family: 'Verdana', sans-serif;
+	box-sizing: border-box;
+	line-height: 1.4;
+	outline: none;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	max-width: 100%;
+	line-height: 1.6;
+	margin: 0 auto;
+	width: 1080px;
+	padding: 20px;
+	text-align: justify;
+}
+button {
+	font-size: 1.2rem;
+}
+button:hover {
+	cursor: pointer;
+}
+button#topbutton {
+	bottom: 5px;
+	right: 5px;
+	z-index: 1;
+	position: fixed;
+	outline: none;
+	border: 1px solid #900;
+	border-radius: 5px;
+	background: linear-gradient(0deg, rgb(255, 187 ,0) 0%, rgb(253, 45, 45) 100%);
+	color: white;
+}
+button#topbutton:hover {
+	background: linear-gradient(0deg, rgb(253, 45, 45) 0%, rgb(255, 187 ,0) 100%);
+}
+.displaynone {
+	display: none;
+}
+img, audio, video {
+	vertical-align: top;
+}
